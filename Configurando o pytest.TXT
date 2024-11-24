@@ -1,0 +1,18 @@
+Para configurar o pytest no seu projeto Django, você pode seguir os seguintes passos:
+
+Instale o pytest e o pytest-django:
+
+sh
+pip install pytest pytest-django
+Configure o pytest: Crie um arquivo chamado pytest.ini no diretório raiz do seu projeto e adicione o seguinte conteúdo:
+
+ini
+[pytest]
+DJANGO_SETTINGS_MODULE = seu_projeto.settings
+Substitua seu_projeto.settings pelo caminho do módulo de configurações do seu projeto Django.
+
+Execute o pytest: Para rodar os testes, você pode usar o comando:
+
+sh
+pytest
+Esses passos devem ajudar você a integrar e usar o pytest com seu projeto Django. Se precisar de mais alguma coisa ou tiver outras dúvidas, estou aqui para ajudar!
